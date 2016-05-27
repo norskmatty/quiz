@@ -103,6 +103,10 @@ body {
 	position: absolute;
 }
 
+.questions {
+	margin-left: 125px;
+}
+
 .score {
 	position: absolute;
 	top: 175px;
@@ -125,3 +129,55 @@ body {
 	margin-top: -20px;
 }
 
+#question1, #question2, #question3, #question4, #question5 {
+	display: none;
+}
+
+.question h1 {
+	font-family: 'Tangerine', sans-serif;
+	font-size: 48px;
+	letter-spacing: 0.05em;
+	text-align: center;
+}
+
+.question p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+}
+
+.question form {
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	padding: 5px;
+	background-color: steelblue;
+	box-shadow: 0 0 2px 2px blue;
+	font-family: 'Tangerine';
+	font-size: 30px;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+
+.results {
+	position: absolute;
+	top: 110px;
+	left: 210px;
+	height: 780px;
+	width: 980px;
+	text-align: center;
+}
+
+.results h1 {
+	font-family: 'Tangerine', sans-serif;
+	font-size: 48px;
+	letter-spacing: 0.05em;
+}
+
+.results p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	letter-spacing: 0.04em;
+	
+}

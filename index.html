@@ -25,21 +25,65 @@
 		<button id="hideinstructions"> Vive La Revolution! </button>
 
 	</div>
-	<div class="quizgame"> QUIZ GAMES
-		<div class="question1"> 
-
-		</div>
-		<div class="question2"> 
-
-		</div>
-		<div class="question3"> 
-
-		</div>
-		<div class="question4"> 
-
-		</div>
-		<div class="question5"> 
-
+	<div class="quizgame">
+		<div class="questions">
+			<div class="question"> 
+				<div id="question1">
+					<h1> Question 1 </h1>
+					<p> In the Estates General that was called in 1789, which estate was made up of the bourgeoise, the peasants, and anyone else who was not a noble or a member of the clergy? </p>
+					<form id="form1">
+						<input type=radio value="wrong"> First Estate </input> <br>
+						<input type=radio value="wrong"> Second Estate </input> <br>
+						<input type=radio value="right"> Third Estate </input> <br>
+						<input type=radio value="wrong"> Fourth Estate </input> <br>
+						<input type=submit name="submitanswer1" value="Submit answer"> </input>
+					</form>
+				</div>
+				<div id="question2"> 
+					<h1> Question 2 </h1>
+					<p> Occuring on July 14, 1789, what was the first (but certainly not the last) violent insurgence by Parisian commoners during the early days of the French Revolution?  </p>
+					<form id="form2">
+						<input type=radio value="right"> The Storming of the Bastille </input> <br>
+						<input type=radio value="wrong"> The Tennis Court Oath </input> <br>
+						<input type=radio value="wrong"> The Thermidorian Reaction </input> <br>
+						<input type=radio value="wrong"> The Massacre of the Champ de Mars </input> <br>
+						<input type=submit name="submitanswer2" value="Submit answer"> </input>
+					</form>
+				</div>
+				<div id="question3"> 
+					<h1> Question 3 </h1>
+					<p> Which French king went from absolutist monarch to figurehead monarch to being guillotined in just four short years as the Revolution rolled on? </p>
+					<form id="form3">
+						<input type=radio value="wrong"> Louis XV </input> <br>
+						<input type=radio value="wrong"> Louis Phillipe </input> <br>
+						<input type=radio value="wrong"> Charles X </input> <br>
+						<input type=radio value="right"> Louis XVI </input> <br>
+						<input type=submit name="submitanswer3" value="Submit answer"> </input>
+					</form>
+				</div>
+				<div id="question4"> 
+					<h1> Question 4 </h1>
+					<p> Which Revolutionary leader took control of the Committee of Public Safety in the aftermath of the king's execution, overseeing the Reign of Terror? </p>
+					<form id="form4">
+						<input type=radio value="wrong"> Georges Danton </input> <br>
+						<input type=radio value="right"> Maximillien Robespierre </input> <br>
+						<input type=radio value="wrong"> Jean-Paul Marat </input> <br>
+						<input type=radio value="wrong"> Marquis de Lafayette </input> <br>
+						<input type=submit name="submitanswer4" value="Submit answer"> </input>
+					</form>
+				</div>
+				<div id="question5"> 
+					<h1> Question 5 </h1>
+					<p> What institution ruled France during the time period (1795-1799) between the end of the Committee of Public Safety and Napoleon Bonaparte's ascension as the sole ruler (as Consul and, later, Emperor), which effectively ended the French Revolution? </p>
+					<form id="form5">
+						<input type=radio value="wrong"> the National Assembly </input> <br>
+						<input type=radio value="wrong"> the Legislative Assembly </input> <br>
+						<input type=radio value="right"> the Directory </input> <br>
+						<input type=radio value="wrong"> the Constitutional Congress </input> <br>
+						<input type=submit name="submitanswer5" value="Submit answer"> </input>
+					</form>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="score"> 
@@ -51,8 +95,13 @@
 			<li> <img src="images/assignat.gif" height=60> </li>
 			<li> <img src="images/assignat.gif" height=60> </li>
 		</ul>
+	</div> </body>
+	<div class="results"> 
+		<h1> Results </h1>
+		<p> Congratulations!  You got <span>5</span> questions correct! </p>
+		<p> You've won a copy of the Declaration of the Rights of Man, conceived by the Marquis de Lafayette and intended to be the basis of enlightened rule in post-Revolutionary France (of course, it was never actually used as such, but it's the thought that counts.) </p>
+		<img src="images/declaration.jpg">
 	</div>
-	<div class="results"> RESULTS </div>
 
 	<script src="https://code.jquery.com/jquery.min.js"></script>
 	<script src="js/js.js"></script>
