@@ -31,57 +31,107 @@
 				<div id="question1">
 					<h1> Question 1 </h1>
 					<p> In the Estates General that was called in 1789, which estate was made up of the bourgeoise, the peasants, and anyone else who was not a noble or a member of the clergy? </p>
-					<form id="form1">
-						<input type=radio value="wrong"> First Estate </input> <br>
-						<input type=radio value="wrong"> Second Estate </input> <br>
-						<input type=radio value="right"> Third Estate </input> <br>
-						<input type=radio value="wrong"> Fourth Estate </input> <br>
-						<input type=submit name="submitanswer1" value="Submit answer"> </input>
+					<form class="form">
+						<input type=radio name="question1" value="1"> First Estate </input> <br>
+						<input type=radio name="question1" value="2"> Second Estate </input> <br>
+						<input type=radio name="question1" value="3"> Third Estate </input> <br>
+						<input type=radio name="question1" value="4"> Fourth Estate </input> <br>
+						<input type=submit name="submitanswer1" id="submit"value="Submit answer"> </input>
 					</form>
+				</div>
+				<div id="answer1correct">
+					<h1> Correct! </h1>
+					<p> The Third Estate represented about 85% of France's population, but only 1/3 of the Estates General.  This disproportionate representation would lead to the Third Estate working to increase it's political power and touch off the French Revolution and all it's unintended consequences. </p>
+					<button id="question1correct"> Next question </button>
+				</div>
+				<div id="answer1incorrect">
+					<h1> Sorry, incorrect </h1>
+					<p> The Third Estate represented all the French people who were not nobles (the First Estate) or clergy (Second Estate).  There was no Fourth Estate. </p>
+					<button id="question1incorrect"> Next question </button>
 				</div>
 				<div id="question2"> 
 					<h1> Question 2 </h1>
 					<p> Occuring on July 14, 1789, what was the first (but certainly not the last) violent insurgence by Parisian commoners during the early days of the French Revolution?  </p>
-					<form id="form2">
-						<input type=radio value="right"> The Storming of the Bastille </input> <br>
-						<input type=radio value="wrong"> The Tennis Court Oath </input> <br>
-						<input type=radio value="wrong"> The Thermidorian Reaction </input> <br>
-						<input type=radio value="wrong"> The Massacre of the Champ de Mars </input> <br>
-						<input type=submit name="submitanswer2" value="Submit answer"> </input>
+					<form class="form">
+						<input type=radio name="question2" value="1"> The Storming of the Bastille </input> <br>
+						<input type=radio name="question2" value="2"> The Tennis Court Oath </input> <br>
+						<input type=radio name="question2" value="3"> The Thermidorian Reaction </input> <br>
+						<input type=radio name="question2" value="4"> The Massacre of the Champ de Mars </input> <br>
+						<input type=submit name="submitanswer2" id="submit" value="Submit answer"> </input>
 					</form>
+				</div>
+				<div id="answer2correct"> 
+					<h1> Correct! </h1>
+					<p> The Bastille had been mostly used as a prison after outliving it's usefulness as a defensive castle.  It mostly held political prisoners of the king in it's history as a prison, and for that reason represented royal overreach.  Although it was believed to be holding hundreds of prisoners in unspeakable misery by the rioting crowds, at the time of the storming and fall of the Bastille, there were in fact only 7 prisoners that were reasonably well taken care of.  Still, the Bastille came to represent what the Revolution intended to fight against. </p>
+					<button id="question2correct"> Next question </button>
+				</div>
+				<div id="answer2incorrect">
+					<h1> Sorry, incorrect </h1>
+					<p> The Storming of the Bastille occurred on July 14, 1789.  The Tennis Court Oath was non-violent and occurred as the Third Estate plotted to form their own assembly.  The Thermidorian Reaction overthrew the Committee of Public Safety in 1795.  The Massacre of the Champ de Mars occurred in 1791 during a confrontation over whether the king should remain under a constitutional monarchy or be stripped of all power right then. </p>
+					<button id="question2incorrect"> Next question </button>
 				</div>
 				<div id="question3"> 
 					<h1> Question 3 </h1>
 					<p> Which French king went from absolutist monarch to figurehead monarch to being guillotined in just four short years as the Revolution rolled on? </p>
-					<form id="form3">
-						<input type=radio value="wrong"> Louis XV </input> <br>
-						<input type=radio value="wrong"> Louis Phillipe </input> <br>
-						<input type=radio value="wrong"> Charles X </input> <br>
-						<input type=radio value="right"> Louis XVI </input> <br>
-						<input type=submit name="submitanswer3" value="Submit answer"> </input>
+					<form class="form">
+						<input type=radio name="question3" value="1"> Louis XV </input> <br>
+						<input type=radio name="question3" value="2"> Louis Philippe </input> <br>
+						<input type=radio name="question3" value="3"> Charles X </input> <br>
+						<input type=radio name="question3" value="4"> Louis XVI </input> <br>
+						<input type=submit name="submitanswer3" id="submit" value="Submit answer"> </input>
 					</form>
+				</div>
+				<div id="answer3correct"> 
+					<h1> Correct! </h1>
+					<p> Louis XVI was not up to the task of managing a debt crisis that blossomed into a revolution.  Lacking the energy, will and ability to steer through difficult times, Louis' fate was to be stripped of power and then publically executed, ending the French monarchy that could trace its legacy all the way back to the Merovingian dynasty that began in 486 AD. </p>
+					<button id="question3correct"> Next question </button>
+				</div>
+				<div id="answer3incorrect">
+					<h1> Sorry, incorrect </h1>
+					<p> Louis XVI was the monarch that was executed via the guillotine, ending the French monarchy.  Louis XV was Louis XIV's grand-father and the previous king of France.  Louis Philippe was one of the many rulers to filter in and out of power in France in the long struggle for stability in the 1800s after the Revolution.  Charles X was one of Louis XVI's younger brothers that ruled following the brief restoration of the Bourbon dynasty after Napoleon's capitulation. </p>
+					<button id="question3incorrect"> Next question </button>
 				</div>
 				<div id="question4"> 
 					<h1> Question 4 </h1>
 					<p> Which Revolutionary leader took control of the Committee of Public Safety in the aftermath of the king's execution, overseeing the Reign of Terror? </p>
-					<form id="form4">
-						<input type=radio value="wrong"> Georges Danton </input> <br>
-						<input type=radio value="right"> Maximillien Robespierre </input> <br>
-						<input type=radio value="wrong"> Jean-Paul Marat </input> <br>
-						<input type=radio value="wrong"> Marquis de Lafayette </input> <br>
-						<input type=submit name="submitanswer4" value="Submit answer"> </input>
+					<form class="form">
+						<input type=radio name="question4" value="1"> Georges Danton </input> <br>
+						<input type=radio name="question4" value="2"> Maximillien Robespierre </input> <br>
+						<input type=radio name="question4" value="3"> Jean-Paul Marat </input> <br>
+						<input type=radio name="question4" value="4"> Marquis de Lafayette </input> <br>
+						<input type=submit name="submitanswer4" id="submit" value="Submit answer"> </input>
 					</form>
+				</div>
+				<div id="answer4correct"> 
+					<h1> Correct! </h1>
+					<p> Maximillien Robespierre was one of the many to come to sudden and unexpected prominence during the Revolution only to eventually be disgraced and guillotined.  Robespierre, 'The Incorruptible', used his position within the Committee of Public Safety (the de facto ruling power in 1794-1795) to purge his enemies, particularly the conservatives that were furious that the King had been executed.  The Reign of Terror saw thousands of people lose their heads not just in Paris, but all over the country, as Robespierre and his allies hoped to violently force the country to do things their way.  Finally, he and his closest associates were themselves denounced and executed, and when the pieces were picked up, the Reign of Terror was over. </p>
+					<button id="question4correct"> Next question </button>
+				</div>
+				<div id="answer4incorrect">
+					<h1> Sorry, incorrect </h1>
+					<p> Maximillien Robespierre took control of the Committee of Public Safety and oversaw the Reign of Terror, of which he was one of its final victims.  Georges Danton was also on the Committee of Public Safety, but lost out to Robespierre and lost his head as part of the Terror.  Jean-Paul Marat was a close ally of Robespierre, but he was murdered by a woman named Charlotte Corday, who didn't like the radical direction of the Revolution she felt Marat was most responsible for. The Marquis de Lafayette was a noble originally sympathetic to the ideals of the Revolution, but had been languishing in a Austrian prison at the time of the Terror, which probably saved his life.</p>
+					<button id="question4incorrect"> Next question </button>
 				</div>
 				<div id="question5"> 
 					<h1> Question 5 </h1>
 					<p> What institution ruled France during the time period (1795-1799) between the end of the Committee of Public Safety and Napoleon Bonaparte's ascension as the sole ruler (as Consul and, later, Emperor), which effectively ended the French Revolution? </p>
-					<form id="form5">
-						<input type=radio value="wrong"> the National Assembly </input> <br>
-						<input type=radio value="wrong"> the Legislative Assembly </input> <br>
-						<input type=radio value="right"> the Directory </input> <br>
-						<input type=radio value="wrong"> the Constitutional Congress </input> <br>
-						<input type=submit name="submitanswer5" value="Submit answer"> </input>
+					<form class="form">
+						<input type=radio name="question5" value="1"> the National Assembly </input> <br>
+						<input type=radio name="question5" value="2"> the Legislative Assembly </input> <br>
+						<input type=radio name="question5" value="3"> the Directory </input> <br>
+						<input type=radio name="question5" value="4"> the Constitutional Convention </input> <br>
+						<input type=submit name="submitanswer5" id="submit" value="Submit answer"> </input>
 					</form>
+				</div>
+				<div id="answer5correct"> 
+					<h1> Correct! </h1>
+					<p> the Directory ran the country mostly ineffectively in this period, desperately trying only to stay in power by constantly fending of attempts by both radicals and conservatives to take control.  Increasingly, it relied on the army to help it control the population and institute its moderate course.  In particular, it relied upon Napoleon Bonaparte, who began his career as a minor officer of little consequence but who piled up victories and honors before claiming a position as the sole ruler of France.  Not as a king, but as a Consul, in the spirit of the old Roman Republic. </p>
+					<button id="question5correct"> See Score </button>
+				</div>
+				<div id="answer5incorrect">
+					<h1> Sorry, incorrect </h1>
+					<p> The Directory was in charge during this period between the radical Revolutionary period and the empire building (and collapsing) Napoleonic era.  The National Assembly took over for the Estates General in 1789 after the Third Estate broke off to form it.  The Legislative Assembly attempted to create a stable constitutional monarchy (which it was never able to do, thanks in large part to the agitation of the radical element of the Revolution).  The Constitutional Convention was one of the governmental bodies formed during the American Revolution. </p>
+					<button id="question5incorrect"> See Score </button>
 				</div>
 			</div>
 		</div>
@@ -89,18 +139,14 @@
 	<div class="score"> 
 		<h1> Assignats Earned: </h1>
 		<ul id="assignat-list">
-			<li> <img src="images/assignat.gif" height=60> </li>
-			<li> <img src="images/assignat.gif" height=60> </li>
-			<li> <img src="images/assignat.gif" height=60> </li>
-			<li> <img src="images/assignat.gif" height=60> </li>
-			<li> <img src="images/assignat.gif" height=60> </li>
+			
 		</ul>
 	</div> </body>
 	<div class="results"> 
 		<h1> Results </h1>
-		<p> Congratulations!  You got <span>5</span> questions correct! </p>
-		<p> You've won a copy of the Declaration of the Rights of Man, conceived by the Marquis de Lafayette and intended to be the basis of enlightened rule in post-Revolutionary France (of course, it was never actually used as such, but it's the thought that counts.) </p>
-		<img src="images/declaration.jpg">
+		<p> <span id="congrats"> Congratulations! </span> You got <span id="thescore">5</span> questions correct! </p>
+		<p id="final"> You've won a copy of the Declaration of the Rights of Man, conceived by the Marquis de Lafayette and intended to be the basis of enlightened rule in post-Revolutionary France (of course, it was never actually used as such, but it's the thought that counts.) </p>
+		<span id="image"> <img src="images/declaration.jpg"> </span>
 	</div>
 
 	<script src="https://code.jquery.com/jquery.min.js"></script>

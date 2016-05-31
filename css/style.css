@@ -71,7 +71,7 @@ body {
 	height: 780px;
 	width: 1180px;
 	display: none;
-
+	z-index: 1000;
 }
 
 .instructions h1 {
@@ -129,7 +129,7 @@ body {
 	margin-top: -20px;
 }
 
-#question1, #question2, #question3, #question4, #question5 {
+#question2, #question3, #question4, #question5, #answer1correct, #answer1incorrect, #answer2correct, #answer2incorrect, #answer3correct, #answer3incorrect, #answer4correct, #answer4incorrect, #answer5correct, #answer5incorrect {
 	display: none;
 }
 
@@ -167,6 +167,7 @@ input[type=submit] {
 	height: 780px;
 	width: 980px;
 	text-align: center;
+	display: none;
 }
 
 .results h1 {
@@ -180,4 +181,11 @@ input[type=submit] {
 	font-size: 24px;
 	letter-spacing: 0.04em;
 	
+}
+
+#question1correct, #question1incorrect, #question2correct, #question2incorrect, #question3correct, #question3incorrect, #question4correct, #question4incorrect, #question5correct, #question5incorrect {
+	background-color: steelblue;
+	box-shadow: 0 0 2px 2px blue;
+	font-family: 'Tangerine';
+	font-size: 30px;
 }
